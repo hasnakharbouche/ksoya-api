@@ -68,7 +68,7 @@
   font-family: "Playfair Display";
   font-weight: lighter;
   font-size: 14px;
-  color: 242A21;
+  color: #242A21;
   /*height: 100vh; pour prendre 100% de l'écran du parent*/
   display: flex;
   flex-direction: column;
