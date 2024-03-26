@@ -18,10 +18,11 @@ body {
 }
 
 body {
-  background-color: #f9f7f4;
-  color: #242a21;
-  display: flex;
-  flex-direction: column;
+    background-color: #f9f7f4;
+    color: #242a21;
+    display: flex;
+    flex-direction: column;
+    font-family: "Playfair Display";
 }
 
 /* Headings */
@@ -37,22 +38,24 @@ h3 {
 /* Logo */
 header .logo,
 footer .logo {
-  width: 120px;
-  height: 120px;
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
 }
 
 /* ============================== HEADER */
 
 header {
-  background-color: #535151;
-  color: #f9f7f4;
-  height: auto;
-  font-size: 30px;
-  color: #f9f7f4;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-right: 100px;
+    background-color: #535151;
+    color: #f9f7f4;
+    height: auto;
+    font-size: 30px;
+    color: #f9f7f4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 100px;
+    font-family: "Playfair Dispaly";
 }
 
 header .logo img {
@@ -94,8 +97,14 @@ section.items {
 }
 
 .item {
-  height: 700px;
+    height: 600px;
 }
+
+.item-image{
+    height:500px;
+}
+
+
 
 /* ============================== FOOTER */
 
@@ -105,6 +114,7 @@ footer {
   height: auto;
   padding: 15px;
   font-size: 2em;
+    font-family: "Playfair Display";
 }
 
 footer img {

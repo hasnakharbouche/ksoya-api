@@ -5,7 +5,7 @@ discoverButton.addEventListener("click", function () {
     indispensableSection.scrollIntoView({ behavior: "smooth" });
 });
 
-const moreButton = document.getElementById("more-button");
+const moreButton = document.getElementById("shop-button");
 moreButton.addEventListener("click", function () {
     window.location.href = "shop.html";
 });
