@@ -1,0 +1,130 @@
+/* ============================== GLOBAL */
+
+/* Reset */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+/* HTML, Body */
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-color: #f9f7f4;
+    color: #242a21;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Headings */
+h2 {
+    font-size: 4em;
+    text-align: center;
+    padding: 30px 0;
+}
+
+/* Logo */
+header .logo,
+footer .logo {
+    width: 120px;
+    height: 120px;
+}
+
+/* ============================== HEADER */
+
+header {
+    background-color: #535151;
+    color: #f9f7f4;
+    height: auto;
+    font-size: 30px;
+    color: #f9f7f4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 100px;
+}
+
+header .logo img {
+    width: 100%;
+    height: 100%;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+header nav li {
+    padding-right: 100px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+/* ============================== MAIN */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-evenly;
+    gap: 100px;
+    padding: 0 100px;
+}
+
+.item {
+    height: 700px;
+}
+
+/* ============================== FOOTER */
+
+footer {
+    background-color: #535151;
+    color: #f9f7f4;
+    height: auto;
+    padding: 50px;
+    font-size: 2em;
+}
+
+footer img {
+    width: 250px;
+    height: 250px;
+    margin-left: 55px;
+}
+
+#row-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#row-1 #social-media #media-icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+#row-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* ============================== RESPONSIVE */

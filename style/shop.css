@@ -1,0 +1,21 @@
+/* ============================== GLOBAL */
+
+/* ============================== HEADER */
+
+/* ============================== MAIN */
+
+#shop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* ============================== FOOTER */
+
+footer {
+    margin-top: 50px;
+}
+
+/* ============================== RESPONSIVE */
