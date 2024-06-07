@@ -2,7 +2,8 @@ const discoverButton = document.getElementById("discover-button");
 const indispensableSection = document.getElementById("indispensable");
 
 discoverButton.addEventListener("click", function () {
-    indispensableSection.scrollIntoView({ behavior: "smooth" });
+    // indispensableSection.scrollIntoView({ behavior: "smooth" }); pour une ancre
+        window.location.href = "shop.html";
 });
 
 const moreButton = document.getElementById("shop-button");

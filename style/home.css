@@ -7,7 +7,7 @@
 #welcome {
   background-image: url("../assets/background-photo.png");
   background-size: cover;
-  height: calc(100vh - 120px);
+  height: calc(100vh - 120px);/*100% vus den l'écran*/
   display: flex;
   justify-content: center;
   align-items: end;
@@ -104,3 +104,10 @@ item-image {
 }
 
 /* ============================== FOOTER */
+
+/* -------------MEDIA QUERIES MOBILE--------- */
+
+@media screen  and (max-width:590px){
+
+};
+  
