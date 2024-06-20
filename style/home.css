@@ -1,17 +1,14 @@
-/* ============================== GLOBAL */
-
-/* ============================== HEADER */
-
-/* ============================== MAIN */
 
 #welcome {
   background-image: url("../assets/background-photo.png");
-  background-size: cover;
-  height: calc(100vh - 120px);/*100% vus den l'écran*/
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: calc(100vh - 120px); /*100% vus de l'écran*/
   display: flex;
   justify-content: center;
   align-items: end;
   width: 100%;
+  object-fit: cover;
   padding: 15px;
 }
 
@@ -68,7 +65,7 @@
   font-family: "Playfair Display";
   font-weight: lighter;
   font-size: 14px;
-  color: #242A21;
+  color: #242a21;
   /*height: 100vh; pour prendre 100% de l'écran du parent*/
   display: flex;
   flex-direction: column;
@@ -103,11 +100,6 @@ item-image {
   border: 1px solid #3d423d;
 }
 
-/* ============================== FOOTER */
 
-/* -------------MEDIA QUERIES MOBILE--------- */
-
-@media screen  and (max-width:590px){
-
-};
-  
+    
+ 
