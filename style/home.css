@@ -1,15 +1,15 @@
 
 #welcome {
   background-image: url("../assets/background-photo.png");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   height: calc(100vh - 120px); /*100% vus de l'écran*/
   display: flex;
   justify-content: center;
   align-items: end;
   width: 100%;
-  object-fit: cover;
-  padding: 15px;
+  padding:15px;
+ 
 }
 
 #spring-season-container {
@@ -50,6 +50,7 @@
 #free-container {
   background-color: #555d53;
   width: 100%;
+  
 }
 
 #free-text {
